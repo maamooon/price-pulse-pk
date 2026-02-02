@@ -11,3 +11,6 @@ python-dotenv
 rapidfuzz
 jinja2
 python-multipart
+playwright
+asyncio
+aiohttp
