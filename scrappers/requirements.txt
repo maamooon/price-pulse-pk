@@ -1,0 +1,10 @@
+# Scraper Dependencies
+playwright==1.55.0
+asyncio
+aiohttp
+
+# Data Processing
+pandas==2.2.0
+
+# Utilities
+python-dotenv==1.0.0

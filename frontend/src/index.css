@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&display=swap');
+
+:root {
+  /* Brand Colors - Pakistani Focused */
+  --primary: #059669; /* Emerald Green */
+  --primary-glow: rgba(5, 150, 105, 0.4);
+  --secondary: #0d9488; /* Teal */
+  --accent: #d97706; /* Gold/Ochre */
+  
+  /* Mood Palettes */
+  --bg-main: #f0fdf4; /* Soft Mint */
+  --bg-card: #ffffff;
+  --bg-accent: #fefce8; /* Pastel Yellow */
+  
+  /* Text */
+  --text-main: #064e3b; /* Deep Greenish Black */
+  --text-muted: #374151;
+  --text-on-primary: #ffffff;
+  
+  /* Store Colors (Estimated Brand Vibes) */
+  --color-jalal: #bf1e2e; /* Red */
+  --color-metro: #003a70; /* Blue */
+  --color-alfatah: #81bc06; /* Green */
+  --color-grocer: #f48020; /* Orange */
+  --color-rahim: #059669;
+  --color-greenvalley: #0d9488;
+
+  /* UI Tokens */
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --shadow-sm: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --shadow-glow: 0 0 20px var(--primary-glow);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, .brand {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  transition: var(--transition);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
